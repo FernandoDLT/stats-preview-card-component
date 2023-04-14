@@ -123,43 +123,43 @@ footer .attribution a {
 @media (max-width: 620px) {
   .card-wrapper {
     flex-direction: column;
-    width: 95%;
+    width: auto;
     flex-flow: column-reverse;
   }
-
+  
   .card-wrapper .card-content {
     width: 88%;
     align-items: center;
   }
-
+  
   .card-wrapper .card-content h1 {
     font-size: 2rem;
     text-align: center;
   }
-
+  
   .card-wrapper .card-content p {
     font-size: 1.2rem;
     text-align: center;
   }
-
+  
   .card-wrapper .card-img {
     width: 100%;
   }
-
+  
   .card-wrapper .card-content .stats {
     flex-direction: column;
   }
-
+  
   .card-wrapper .card-content .stats .stats-text {
     width: 100%;
     font-size: 1.6rem;
     align-items: center;
   }
-
+  
   .card-wrapper .card-content .stats .stats-text span {
     font-size: .8rem;  
   }
-
+  
   .footer .attribution {
     font-size: 1.2rem;
     line-height: 2rem;
